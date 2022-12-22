@@ -1,6 +1,9 @@
 /* ********** Custom Properties ********** */
 
-
+@font-face {
+  font-family: 'Cascadia code';
+  src: url(./assets/CascadiaCode.woff2);
+}
 
 :root {
   --background-color: #1E1E1E;
