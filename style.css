@@ -228,7 +228,7 @@ p {
 #inicio {
   background-color: var(--background-color);
   width: 900px;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -236,9 +236,6 @@ p {
   right: 0;
 }
 
-.title-init7 p {
-  height: 400px;
-}
 
 
 .init-tit1 {
