@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#3c3c3c">
     <title>Nacho Serrano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,9 +25,10 @@
     </header>
     <aside class="aside">
         <nav class="menu-lat">
-            <a href="">H</a>
-            <a href="">H</a>
-            <a href="">H</a>
+            <a href="https://github.com/nacho-sf" target="_blank" rel="noopener"><img src="assets/icon-github.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/ignacio-serrano-fern%C3%A1ndez-73a731167/" target="_blank" rel="noopener"><img src="assets/icon-linkedin.png" alt="linkedin"></a>
+            <a href="#"><img src="assets/icon-mail.png" alt="email"></a>
+            <a href="#"><img src="assets/icon-tel.png" alt="phone"></a>
         </nav>
     </aside>
     <main class="main">
@@ -85,27 +89,59 @@
                 <section id="proyectos" class="projects">
                     <div class="top-space"></div>
                     <div class="container">
-                        <a href="#project-1" id="project-1" class="project-box" style="transition-delay: 100ms;">
-
+                        <a href="#project-1" class="project-box" id="proj-1" style="transition-delay: 100ms;">
+                            <img src="assets/nasalogo.png" alt="Nasa logo">
+                            <aside class="project-box-info">
+                                <p>{REST:API NASA}</p>
+                                <div class="technologies">
+                                    <img src="assets/logo-node-js.png" alt="Node logo">
+                                    <img src="assets/logo-express.png" alt="Node express">
+                                    <img src="assets/logo-mongo.png" alt="Node mongo">
+                                </div>
+                            </aside>
                         </a>
-                        <a href="#project-2" id="project-2" class="project-box" style="transition-delay: 200ms;">
+                        <a href="#project-2" class="project-box" id="proj-2" style="transition-delay: 200ms;">
                             
                         </a>
-                        <a href="#project-3" id="project-3" class="project-box" style="transition-delay: 300ms;">
+                        <a href="#project-3" class="project-box" id="proj-3" style="transition-delay: 300ms;">
                             
                         </a>
-                        <a href="#project-4" id="project-4" class="project-box" style="transition-delay: 400ms;">
+                        <a href="#project-4" class="project-box" id="proj-4" style="transition-delay: 400ms;">
                             
                         </a>
-                        <a href="#project-5" id="project-5" class="project-box" style="transition-delay: 500ms;">
+                        <a href="#project-5" class="project-box" id="proj-5" style="transition-delay: 500ms;">
                             
                         </a>
-                        <a href="#project-6" id="project-6" class="project-box" style="transition-delay: 600ms;">
+                        <a href="#project-6" class="project-box" id="proj-6" style="transition-delay: 600ms;">
                             
                         </a>
                     </div>
                     <div class="bottom-space"></div>
                 </section>
+                <article class="modal" id="project-1">
+                    <div class="modal-content">
+                        <a href="#cerrar" class="modal-close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+                        </a>
+                        <a href="https://github.com/nacho-sf/apinasa-restserver"  target="_blank" rel="noopener" class="modal-git">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+                        </a>
+                        <a href="https://google.com"  target="_blank" rel="noopener" class="modal-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+                        </a>
+                        <article class="project-modal">
+                            <h3>REST:API NASA</h3>
+                            <div class="project-content">
+                                <div class="project-img">
+                                    <img src="assets/nasalogo.png" alt="Nasa logo">
+                                </div>
+                                <div class="project-info">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos expedita pariatur soluta. Ducimus ad, laudantium corrupti, vel neque ullam commodi laborum eaque enim odit pariatur voluptatem aliquid nihil. Aliquam, et!</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </article>
             </div>
             <div class="right-space"></div>
         </div>

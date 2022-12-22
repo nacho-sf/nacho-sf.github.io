@@ -171,9 +171,6 @@ p {
 
 
 
-
-
-
 .aside {
   background-color: var(--aside-bar-color);
   width: 55px;
@@ -183,7 +180,22 @@ p {
   z-index: 999;
 }
 
+.menu-lat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
 
+.menu-lat a {
+  padding: 3px 9px;
+  opacity: 0.5;
+}
+
+.menu-lat a:hover {
+  opacity: 1;
+}
 
 
 
@@ -695,66 +707,204 @@ p {
   border-radius: 10px;
   box-shadow: 5px 5px 4px black;
   position: relative;
+  left: 0;
+  top: 50px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.project-box img {
+  position: relative;
+  top: 25px;
+  left: 5px;
+  object-fit: cover;
+}
+
+.project-box-info {
+  position: absolute;
   top: 0;
   left: 0;
-}
-
-
-#project-1 {
-  position: relative;
-  top: 50px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  background-color: rgba(0,0,0,0.9);
+  font-family: 'Jura', sans-serif;
+  color: white;
   opacity: 0;
-  transition: all 0.5s;
+  pointer-events: none;
+  transition: all 0.2s ease-in-out;
 }
 
-#project-2 {
-  position: relative;
-  top: 50px;
+.technologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+}
+
+.technologies img {
+  display: flex;
+  flex-direction: row;
+  width: 60px;
+  height: auto;
+}
+
+
+.project-box-info p {
+  font-size: 2rem;
+}
+
+.project-box:hover .project-box-info {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.6);
   opacity: 0;
-  transition: all 0.5s;
+  pointer-events: none;
+  transition: all 0.3s;
 }
 
-#project-3 {
+.project-modal {
+  background-color: var(--aside-bar-color);
+  min-width: 600px;
+  max-width: 700px;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-modal h3 {
+  font-family: 'Jura', sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  border-bottom: solid 1px white;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+}
+
+.project-img img {
+  object-fit: cover;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-family: 'Jura', sans-serif;
+}
+
+.modal-content {
   position: relative;
-  top: 50px;
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-#project-4 {
-  position: relative;
-  top: 50px;
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-#project-5 {
-  position: relative;
-  top: 50px;
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-#project-6 {
-  position: relative;
-  top: 50px;
-  opacity: 0;
-  transition: all 0.5s;
 }
 
 
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modal-close svg {
+  width: 3rem;
+  height: 3rem;
+  fill: white;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.modal-close svg:hover {
+  width: 3rem;
+  height: 3rem;
+  fill: white;
+  opacity: 1;
+}
+
+
+.modal-git {
+  position: absolute;
+  top: 1rem;
+  right: 4.5rem;
+}
+
+.modal-git svg {
+  width: 3rem;
+  height: 3rem;
+  fill: white;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.modal-git svg:hover {
+  width: 3rem;
+  height: 3rem;
+  fill: white;
+  opacity: 1;
+}
+
+
+.modal-link {
+  position: absolute;
+  top: 1rem;
+  right: 8.1rem;
+}
+
+.modal-link svg {
+  width: 3rem;
+  height: 3rem;
+  fill: white;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.modal-link svg:hover {
+  width: 3rem;
+  height: 3rem;
+  fill: white;
+  opacity: 1;
+}
 
 
 
-
-
+.modal[id|="project"]:target {
+  opacity: 1;
+  pointer-events: auto;
+}
 
 
 
 
 .footer {
   display: flex;
-  height: 110px;
+  height: 105px;
   width: 100%;
   background-color: var(--background-color);
   border-top: solid 1px var(--aside-bar-color);

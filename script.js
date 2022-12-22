@@ -127,7 +127,7 @@ function scroll400Function() {
     document.getElementById('a2').style.opacity = '1';
     document.getElementById('a3').style.backgroundColor = '#2d2d2d';
     document.getElementById('a3').style.opacity = '0.6';
-    document.getElementById('text-inf1').innerText = 'Sobre mí y qué te puedo ofrecer';
+    document.getElementById('text-inf1').innerText = 'Sobre mí y qué puedo ofrecer';
     document.getElementById('text-inf1').style.opacity = '1';
     document.getElementById('text-inf1').style.right = '120px';
   } else {
@@ -165,7 +165,7 @@ function scroll400Function() {
     document.getElementById('a2').style.opacity = '0.6';
     document.getElementById('a3').style.backgroundColor = '#2d2d2d';
     document.getElementById('a3').style.opacity = '0.6';
-    document.getElementById('text-inf1').innerText = 'Sobre mí y qué te puedo ofrecer';
+    document.getElementById('text-inf1').innerText = 'Sobre mí y qué puedo ofrecer';
     document.getElementById('text-inf1').style.opacity = '0';
     document.getElementById('text-inf1').style.right = '1200px';
   }
@@ -179,40 +179,40 @@ function scroll1500Function() {
     document.getElementById('a2').style.opacity = '0.6';
     document.getElementById('a3').style.backgroundColor = '#1E1E1E';
     document.getElementById('a3').style.opacity = '1';
-    document.getElementById('text-inf1').innerText = 'Sobre mí y qué te puedo ofrecer';
+    document.getElementById('text-inf1').innerText = 'Sobre mí y qué puedo ofrecer';
     document.getElementById('text-inf1').style.opacity = '0';
     document.getElementById('text-inf1').style.right = '-600px';
-    document.getElementById('text-inf2').innerText = 'Conoce mi trabajo';
+    document.getElementById('text-inf2').innerText = 'Mira lo que hago';
     document.getElementById('text-inf2').style.opacity = '1';
     document.getElementById('text-inf2').style.left = '150px';
-    document.getElementById('project-1').style.opacity = '1';
-    document.getElementById('project-1').style.top = '0';
-    document.getElementById('project-2').style.opacity = '1';
-    document.getElementById('project-2').style.top = '0';
-    document.getElementById('project-3').style.opacity = '1';
-    document.getElementById('project-3').style.top = '0';
-    document.getElementById('project-4').style.opacity = '1';
-    document.getElementById('project-4').style.top = '0';
-    document.getElementById('project-5').style.opacity = '1';
-    document.getElementById('project-5').style.top = '0';
-    document.getElementById('project-6').style.opacity = '1';
-    document.getElementById('project-6').style.top = '0';
+    document.getElementById('proj-1').style.opacity = '1';
+    document.getElementById('proj-1').style.top = '0';
+    document.getElementById('proj-2').style.opacity = '1';
+    document.getElementById('proj-2').style.top = '0';
+    document.getElementById('proj-3').style.opacity = '1';
+    document.getElementById('proj-3').style.top = '0';
+    document.getElementById('proj-4').style.opacity = '1';
+    document.getElementById('proj-4').style.top = '0';
+    document.getElementById('proj-5').style.opacity = '1';
+    document.getElementById('proj-5').style.top = '0';
+    document.getElementById('proj-6').style.opacity = '1';
+    document.getElementById('proj-6').style.top = '0';
   } else {
-    document.getElementById('text-inf2').innerText = 'Conoce mi trabajo';
+    document.getElementById('text-inf2').innerText = 'Mira lo que hago';
     document.getElementById('text-inf2').style.opacity = '0';
     document.getElementById('text-inf2').style.left = '-600px';
-    document.getElementById('project-1').style.opacity = '0';
-    document.getElementById('project-1').style.top = '50px';
-    document.getElementById('project-2').style.opacity = '0';
-    document.getElementById('project-2').style.top = '50px';
-    document.getElementById('project-3').style.opacity = '0';
-    document.getElementById('project-3').style.top = '50px';
-    document.getElementById('project-4').style.opacity = '0';
-    document.getElementById('project-4').style.top = '50px';
-    document.getElementById('project-5').style.opacity = '0';
-    document.getElementById('project-5').style.top = '50px';
-    document.getElementById('project-6').style.opacity = '0';
-    document.getElementById('project-6').style.top = '50px';
+    document.getElementById('proj-1').style.opacity = '0';
+    document.getElementById('proj-1').style.top = '50px';
+    document.getElementById('proj-2').style.opacity = '0';
+    document.getElementById('proj-2').style.top = '50px';
+    document.getElementById('proj-3').style.opacity = '0';
+    document.getElementById('proj-3').style.top = '50px';
+    document.getElementById('proj-4').style.opacity = '0';
+    document.getElementById('proj-4').style.top = '50px';
+    document.getElementById('proj-5').style.opacity = '0';
+    document.getElementById('proj-5').style.top = '50px';
+    document.getElementById('proj-6').style.opacity = '0';
+    document.getElementById('proj-6').style.top = '50px';
   }
 }
 
