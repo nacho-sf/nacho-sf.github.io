@@ -228,10 +228,10 @@ p {
 #inicio {
   background-color: var(--background-color);
   width: 900px;
-  height: auto;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   left: 10%;
   right: 0;
 }
