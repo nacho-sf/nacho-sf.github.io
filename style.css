@@ -229,9 +229,6 @@ p {
 
 
 .cont-sections {
-  position: relative;
-  top: 76px;
-  left: 5px;
   height: auto;
   width: 100%;
   display: flex;
@@ -247,7 +244,7 @@ p {
 #inicio {
   background-color: var(--background-color);
   width: 900px;
-  height: 50vh;
+  height: 5vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -259,7 +256,7 @@ p {
 
 .init-tit1 {
   color: var(--text-blue-dark);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0;
   position: relative;
   bottom: 150px;
@@ -268,7 +265,7 @@ p {
 }
 
 .init-tit2 {
-  font-size: 3.5vw;
+  font-size: 3.5rem;
   position: relative;
   right: 300px;
   opacity: 0;
@@ -277,7 +274,7 @@ p {
 
 .init-tit3 {
   color: var(--text-blue-light);
-  font-size: 3.5vw;
+  font-size: 3.5rem;
   position: relative;
   left: 300px;
   opacity: 0;
@@ -325,7 +322,7 @@ p {
 
 .init-tit5 {
   color: var(--text-white-color);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   width: 730px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -403,7 +400,7 @@ p {
 #open-skills {
   margin-bottom: 0;
   color: var(--text-yellow-css);
-  font-size: 1.4vw;
+  font-size: auto;
   position: relative;
   left: 400px;
   opacity: 0;
@@ -413,38 +410,38 @@ p {
 #programming {
   padding-top: 24px;
   margin-top: 0;
-  font-size: 1vw;
+  font-size: auto;
   opacity: 0;
   transition: all 0.3s;
 }
 
 
 #layout {
-  font-size: 1vw;
+  font-size: auto;
   opacity: 0;
   transition: all 0.3s;
 }
 
 #client {
-  font-size: 1vw;
+  font-size: auto;
   opacity: 0;
   transition: all 0.3s;
 }
 
 #server {
-  font-size: 1vw;
+  font-size: auto;
   opacity: 0;
   transition: all 0.3s;
 }
 
 #database {
-  font-size: 1vw;
+  font-size: auto;
   opacity: 0;
   transition: all 0.3s;
 }
 
 #cloud {
-  font-size: 1vw;
+  font-size: auto;
   opacity: 0;
   transition: all 0.3s;
 }
@@ -452,7 +449,7 @@ p {
 #colaborative {
   padding-bottom: 24px;
   margin-bottom: 0;
-  font-size: 1vw;
+  font-size: auto;
   opacity: 0;
   transition: all 0.3s;
 }
@@ -461,7 +458,7 @@ p {
   margin-top: 0;
   margin-bottom: 40px;
   color: var(--text-yellow-css);
-  font-size: 1.4vw;
+  font-size: auto;
   position: relative;
   left: 400px;
   opacity: 0;
@@ -510,7 +507,7 @@ p {
 #open-project {
   margin-bottom: 0;
   color: var(--text-yellow-css);
-  font-size: 1.4vw;
+  font-size: auto;
   position: relative;
   left: 400px;
   opacity: 0;
@@ -520,7 +517,7 @@ p {
 #close-project {
   margin-top: 0;
   color: var(--text-yellow-css);
-  font-size: 1.4vw;
+  font-size: auto;
   position: relative;
   left: 400px;
   opacity: 0;
@@ -544,7 +541,7 @@ p {
 #mern {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 1vw;
+  font-size: auto;
   opacity: 0;
   transition: all 0.5s;
 }
@@ -632,7 +629,7 @@ p {
 
 #sm-p1 {
   font-family:"Calibre","Inter","San Francisco","SF Pro Text",system-ui,sans-serif;
-  font-size: 1vw;
+  font-size: auto;
   color: rgb(189, 189, 189);
   position: relative;
   right: 200px;
@@ -642,7 +639,7 @@ p {
 
 #sm-p2 {
   font-family:"Calibre","Inter","San Francisco","SF Pro Text",system-ui,sans-serif;
-  font-size: 1vw;
+  font-size: auto;
   color: rgb(189, 189, 189);
   position: relative;
   right: 200px;
@@ -652,7 +649,7 @@ p {
 
 #sm-p3 {
   font-family:"Calibre","Inter","San Francisco","SF Pro Text",system-ui,sans-serif;
-  font-size: 1vw;
+  font-size: auto;
   color: rgb(189, 189, 189);
   position: relative;
   right: 200px;
