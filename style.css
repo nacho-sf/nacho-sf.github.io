@@ -206,6 +206,7 @@ p {
 .container {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
 }
 
 .numbers {
@@ -244,7 +245,7 @@ p {
 #inicio {
   background-color: var(--background-color);
   width: 900px;
-  height: 5vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
